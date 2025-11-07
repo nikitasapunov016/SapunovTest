@@ -21,7 +21,7 @@ namespace SapunovTest
             Console.WriteLine(" - " + s);
             Console.WriteLine();
 
-            // пробуем установить главного библиотекаря
+            // пробуеи установить главного библиотекаря
             Console.WriteLine("Пробуем сменить главного библиотекаря на 'Петров П.С.'");
             bool changed = lib.SetChiefLibrarian("Петров П.С.");
             Console.WriteLine("Успех: " + changed);
@@ -59,3 +59,4 @@ namespace SapunovTest
         }
     }
 }
+
